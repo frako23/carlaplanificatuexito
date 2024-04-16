@@ -78,6 +78,11 @@ a (active):    #a67c52 (brown)
 1 - BASE 
 =================================================*/
 
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
