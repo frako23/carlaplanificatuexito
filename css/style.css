@@ -901,7 +901,7 @@ body.overflow-hidden-header-three {
   display: none;
   min-width: 12em;
   /* allow long menu items to determine submenu width */
-  *width: 12em;
+  width: 12em;
   /* no auto sub width for IE7, see white-space comment below */
   top: 118%;
   left: 0;
@@ -965,7 +965,7 @@ body.overflow-hidden-header-three {
 
 .sf-arrows .sf-with-ul {
   padding-right: 2.5em;
-  *padding-right: 1em;
+  padding-right: 1em;
   /* no CSS arrows for IE7 (lack pseudo-elements) */
 }
 
@@ -1754,7 +1754,6 @@ span.description {
 .service-box-sb .service-info {
   margin-top: 4px;
   overflow: hidden;
-  *
 }
 
 .service-box-sb .service-info h4 {
@@ -3139,7 +3138,8 @@ button.close {
 
 .testimonials .testimonial .client .client-pic img {
   width: 75px;
-  height: 75px -webkit-border-radius: 50%;
+  height: 75px;
+   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   display: block;
@@ -5454,7 +5454,7 @@ input[type="submit"]:focus {
   color: #FFF;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   /*IE7 life-saver */
   margin: 5px;
   padding: 3px 10px;
@@ -5487,7 +5487,7 @@ input[type="submit"]:focus {
 .owl-theme .owl-controls .owl-page {
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   /*IE7 life-saver */
 }
 
@@ -6966,3 +6966,6 @@ screen and (max-height: 300px) {
 .container-slideclient {
   padding: 0 0 20px 0;
 }
+/* <uniquifier>: Use a unique and descriptive class name */
+ /* <weight>: Use a value from 100 to 900 */
+
