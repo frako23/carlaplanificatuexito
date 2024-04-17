@@ -896,8 +896,9 @@ body.overflow-hidden-header-three {
 }
 
 .main-nav .sf-menu li.current a {
-  color: #8a8f6a;
+  color: #8dd9cc ;
   font-weight: 600;
+
 }
 
 .main-nav .sf-menu li.current ul a {
@@ -934,7 +935,7 @@ body.overflow-hidden-header-three {
 
 .main-nav .sf-menu a:hover,
 .main-nav .sf-menu .sub-menu .sfHover a {
-  color: #8a8f6a;
+  color: #8dd9cc  ;
 }
 
 .main-nav .sf-menu ul li {
@@ -7020,4 +7021,8 @@ width: 80vw;
   .about-title{
     font-size: 37px ;
   }
+}
+
+.rrss{
+  display: flex;
 }
