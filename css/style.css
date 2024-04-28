@@ -7026,3 +7026,12 @@ width: 80vw;
 .rrss{
   display: flex;
 }
+
+.message-container {
+  background-color: #8dd9cc ;
+  border-radius: 3px ;
+  /* border: 1px solid #000; */
+  color: black;
+  width: 50rem;
+  text-align: center;
+}

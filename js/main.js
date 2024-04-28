@@ -22,7 +22,7 @@
        'controls': false,
        'pager': true,
        'speedOut': 2600,
-       'timeout': 6000,
+       'timeout': 6000000,
        'responsive': true,
        'increase': true,
        'dimensions': '1170 , 600',
