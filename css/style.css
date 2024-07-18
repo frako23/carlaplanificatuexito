@@ -206,14 +206,14 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #29254F;
+    color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     /* background: #C2C5CC; */
     transition: none;
-    color: #ffffff;
+    color: #8DD9CC;
 }
 
 .navbar .dropdown-menu {
@@ -676,7 +676,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #F7CAC9;
+    background: #8DD9CC;
     border-radius: 50%;
     animation: pulse-border 2000ms ease-out infinite;
 }
@@ -691,7 +691,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #F7CAC9;
+    background: #8DD9CC;
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -716,7 +716,7 @@ a:focus {
 
 .service .service-item:hover h3,
 .service .service-item.active h3 {
-    color: #F7CAC9;
+    color: #8DD9CC;
 }
 
 .service .service-item p {
@@ -759,7 +759,7 @@ a:focus {
 .class #class-filter li:hover,
 .class #class-filter li.filter-active {
     background: #29254F;
-    color: #F7CAC9;
+    color: #8DD9CC;
 }
 
 .class .class-item {
@@ -815,7 +815,7 @@ a:focus {
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background: #F7CAC9;
+    background: #8DD9CC;
 }
 
 .class .class-teacher h3 {
@@ -837,13 +837,13 @@ a:focus {
     font-size: 30px;
     font-weight: 100;
     color: #29254F;
-    background: #F7CAC9;
+    background: #8DD9CC;
     border-radius: 40px;
     transition: .3s;
 }
 
 .class .class-wrap:hover .class-teacher a {
-    color: #F7CAC9;
+    color: #8DD9CC;
     background: #29254F;
 }
 
@@ -1974,7 +1974,7 @@ a:focus {
 }
 
 .footer .container-fluid {
-    padding: 90px 0 0 0;
+    padding: 50px 0 0 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -1988,8 +1988,15 @@ a:focus {
 
 .footer_title{
     color: white;
-    margin-top: 2rem;
 }
+
+@media(max-width: 450px) {
+    
+    .footer_title{
+        margin-top: 2rem;
+    }
+}
+
 
 .footer .footer-info .footer-logo {
     display: inline-block;
@@ -2054,7 +2061,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #F7CAC9;
+    color: #8DD9CC;
 }
 
 .footer .copyright {
