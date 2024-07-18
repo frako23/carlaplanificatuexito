@@ -2203,6 +2203,15 @@ a:focus {
     transition: all .15s linear;
 }
 
-.footer-bottom {
-    
+.blog-params {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-img {
+    float: right;
+    margin-right: 20px; 
+    max-width: 620px;
 }
